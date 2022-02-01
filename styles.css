@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 100vw;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    border: 1px solid blue;
+    width: 65vw;
+    height: 100vw;
+}
+
+#title {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+}
+
+#img-logo {
+    width: 105px;
+}
+
+footer {
+    color: white;
+    margin-top: auto;
+    align-self: center;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+form {
+    border: 1px solid red;
+    display: flex;
+}
+
+#first-column, #second-column {
+    border: 1px solid violet;
+}
